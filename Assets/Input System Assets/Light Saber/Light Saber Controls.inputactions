@@ -1,0 +1,54 @@
+{
+    "name": "Light Saber Controls",
+    "maps": [
+        {
+            "name": "Light Saber",
+            "id": "b170d5a3-c320-4593-a02e-7ea669bcacbb",
+            "actions": [
+                {
+                    "name": "ToggleOn",
+                    "type": "Button",
+                    "id": "6ef72915-8041-4173-a1cf-617e7dafdf88",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ToggleOff",
+                    "type": "Button",
+                    "id": "089ff290-fff8-4d0e-b02f-047131f73fec",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a487d667-e92c-469f-9054-fee213c960dc",
+                    "path": "<OculusTouchController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ToggleOn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c8efe0fb-2f40-4a53-9b03-8019bb1b9791",
+                    "path": "<OculusTouchController>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ToggleOff",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

@@ -1,0 +1,127 @@
+{
+    "name": "Jedi",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "553bb31f-d5f0-4e54-9205-90ae0dc04c80",
+            "actions": [
+                {
+                    "name": "Lightning",
+                    "type": "Button",
+                    "id": "8410fbff-44cd-428d-a6cf-e003f176cc91",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Hover",
+                    "type": "Button",
+                    "id": "e2acba74-476c-4d6c-aecb-47c47e2b5918",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Grab",
+                    "type": "Button",
+                    "id": "4f714b1c-2d70-45de-95ec-8f4e4c5631f2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "MultiTap",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Release",
+                    "type": "Button",
+                    "id": "02b38b6e-4b1f-4f8f-981b-1264e085cd4e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "MultiTap(tapCount=3)",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "27e14c8b-d497-435e-8aaa-f260b425a37c",
+                    "path": "<OculusTouchController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Lightning",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "44a43b18-393c-438b-b1d1-59e2ec9fbb4b",
+                    "path": "<OculusTouchController>{LeftHand}/gripPressed",
+                    "interactions": "MultiTap(tapCount=3)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Release",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2fa9f65d-cb14-44d7-b45a-56b422170ae4",
+                    "path": "<OculusTouchController>{RightHand}/gripPressed",
+                    "interactions": "MultiTap(tapCount=3)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Release",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "586aa016-0438-4955-9f9c-0860a009a17c",
+                    "path": "<OculusTouchController>{LeftHand}/gripPressed",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Hover",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f2c4551b-5c84-429b-a03f-6b3f171408cf",
+                    "path": "<OculusTouchController>{RightHand}/gripPressed",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Hover",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e114ded3-2138-408a-8752-1c4444600868",
+                    "path": "<OculusTouchController>{RightHand}/gripPressed",
+                    "interactions": "MultiTap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grab",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c9ed041b-9182-43cb-bb16-54dc8d26361f",
+                    "path": "<OculusTouchController>{LeftHand}/gripPressed",
+                    "interactions": "MultiTap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grab",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
